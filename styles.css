@@ -1,0 +1,23 @@
+h1 {
+    color: #b2f7ef;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+body {
+    background-color:  #7bdff2;
+}
+
+button {
+    background-color: #f7d6e0;
+    display: flexbox;
+    margin-left: 50%;
+
+}
+
+#output {
+    display: flexbox;
+    background-color: #f2b5d4;
+    margin-left: 50%;
+}
