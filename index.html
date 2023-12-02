@@ -6,19 +6,31 @@
     <title>Punny Jokes Generator</title>
     <link rel="stylesheet" href="styles.css">
     <script src="mixedmessage.js"></script>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
-
 <header>
-    <h1>Punny Jokes</h1>
+
+    <nav>
+        <h1><i>Punstastic Puns</i></h1>
+    </nav>
+    
 </header>
 
 <main>
-    <button onclick="printMessage()">click here for funny joke</button>
-    <p id="output">I hope you enjoy puns</p>
+    <div class="banner">
+        <div class="block" >
+            <p id="output">I hope you enjoy puns</p>
+        </div> 
+        
+        <div class="btn">
+            <button onclick="printMessage()">click here for funny joke</button>
+        </div>
+    </div>
 </main>    
 </body>
 </html>
